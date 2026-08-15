@@ -109,7 +109,9 @@ export default function DoktaSection() {
 
             {/* Big CTA */}
             <a
-              href="#contact"
+              href="https://doktanandaku.org"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center bg-munganga-crimson text-white font-headline-sm text-[18px] px-10 py-5 rounded-xl hover:bg-secondary transition-all duration-300 depth-2 hover:-translate-y-1 group"
             >
               <Icon name="calendar_month" size={24} className="mr-3" />
