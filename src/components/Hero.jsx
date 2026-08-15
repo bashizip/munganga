@@ -53,7 +53,9 @@ export default function Hero() {
           <Reveal delay={300}>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="#dokta"
+                href="https://doktanandaku.org"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center bg-munganga-crimson text-white font-headline-sm text-[16px] px-8 py-4 rounded-xl hover:bg-secondary transition-all duration-300 depth-2 hover:-translate-y-1 group"
               >
                 <Icon name="home_health" size={20} filled className="mr-2" />

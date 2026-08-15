@@ -81,7 +81,9 @@ export default function Header({ dark, onToggleDark }) {
             <Icon name={dark ? "light_mode" : "dark_mode"} size={22} />
           </button>
           <a
-            href="#dokta"
+            href="https://doktanandaku.org"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center bg-munganga-crimson text-white font-label-md text-label-md px-6 py-3 rounded-full hover:bg-secondary-container hover:text-white transition-all duration-300 depth-2 hover:scale-105 group"
           >
             <Icon
@@ -135,7 +137,9 @@ export default function Header({ dark, onToggleDark }) {
               </a>
             ))}
             <a
-              href="#dokta"
+              href="https://doktanandaku.org"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setMenuOpen(false)}
               className="mt-4 inline-flex items-center justify-center bg-munganga-crimson text-white font-label-md text-label-md px-6 py-3 rounded-full depth-2"
             >
